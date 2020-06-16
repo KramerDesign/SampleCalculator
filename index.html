@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Value Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <h1>WHAT IS MY MINI WORTH?</h1>
+      <form>
+        <div>
+        <label for="sfs">Size of Full Size:</label>
+        <input required id="sfs" type="text" placeholder="Size in mL" >
+          <span id="error"></span>
+        </div>
+        
+        <div>
+        <label for="smi">Size of Mini:</label>
+        <input required id="smi" type="text" placeholder="Size in mL">
+          <span id="error"></span>
+        </div>
+        
+        <div>
+        <label for="cfs">Cost of Full Size:</label>
+        <input required id="cfs" type="text" placeholder="Dollar amount" >
+          <span id="error"></span>
+        </div>
+        
+        <label for="result">Cost of Mini:</label>
+        <br/>
+        <output id="result"></output>
+          
+    </div>
+    <br />
+    <br />
+
+    <button id="btnCalculate" type="button">Calculate</button>
+    </form>
+  </div>
+</body>
+
+<footer>
+    <script src="scripts.js"></script>
+</footer>
+</html>
